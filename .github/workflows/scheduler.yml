@@ -2,7 +2,7 @@ name: schecduler to upload gmail attachment to gmail drive
 
 on:
   schedule:
-    - cron: '0 17 * * 1'  # Runs on Monday at 17:00 PM BST
+    - cron: '0 22 * * 1'  # Runs on Monday at 22:00 PM BST
   workflow_dispatch:     # Allows manual trigger from GitHub UI
 
 jobs:
@@ -28,9 +28,9 @@ jobs:
         GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
         GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
         GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
-        EMAIL_USER: ${{ secrets.EMAIL_USER }}
-        EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
-        SENDER_FILTER: ${{ secrets.SENDER_FILTER }}
-        GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
+        EMAIL_USER: ${{ SECRET_VAULT.EMAIL_USER }}
+        EMAIL_PASS: ${{ SECRET_VAULT.EMAIL_PASS }}
+        TRUSTED_SENDER: ${{ SECRET_VAULT.TRUSTED_SENDER }}
+        DRIVE_FOLDER_ID: ${{ SECRET_VAULT.DRIVE_FOLDER_ID }}
       run: |
         python main.py
