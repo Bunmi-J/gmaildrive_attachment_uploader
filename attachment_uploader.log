@@ -1,0 +1,14 @@
+2025-08-08 23:31:46,603 - INFO - Using local OAuth2 credentials with token.json.
+2025-08-08 23:53:09,836 - INFO - "GET /?state=DdAqL5fEd3dJW74MNlIhKSdAO7K3wT&code=4/0AVMBsJgMAAExFIredXns_OGekn8bZ1CW5YUzOC3qz-g-KC3OU11Wfo0UPqFdeY80o_CV7g&scope=https://www.googleapis.com/auth/drive.file HTTP/1.1" 200 65
+2025-08-08 23:53:10,055 - INFO - Authenticated with Google Drive.
+2025-08-08 23:53:10,173 - ERROR - Error processing email ID 2: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-08-08 23:53:10,174 - ERROR - IMAP error: socket error: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-08-08 23:53:59,188 - INFO - Using local OAuth2 credentials with token.json.
+2025-08-08 23:53:59,197 - INFO - Authenticated with Google Drive.
+2025-08-08 23:54:01,977 - INFO - Uploaded 'Customers.csv' to Google Drive (File ID: 1oojEVvg-P6YiLg0VOUCRI_nJkdqRKYO6)
+2025-08-08 23:54:02,006 - INFO - Processing complete. Disconnected from email.
+2025-08-08 23:55:28,051 - INFO - No new emails from bunmijegede2025@gmail.com.
+2025-08-09 00:02:14,242 - INFO - Using local OAuth2 credentials with token.json.
+2025-08-09 00:02:14,251 - INFO - Authenticated with Google Drive.
+2025-08-09 00:02:15,661 - INFO - Skipped upload: 'Customers.csv' already exists in Google Drive.
+2025-08-09 00:02:15,721 - INFO - Processing complete. Disconnected from email.

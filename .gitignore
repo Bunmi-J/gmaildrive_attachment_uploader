@@ -1,0 +1,6 @@
+# sensitive files to ignore
+credentials.json
+token.json
+venv/
+.env
+
