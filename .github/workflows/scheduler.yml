@@ -2,7 +2,7 @@ name: schecduler to upload gmail attachment to gmail drive
 
 on:
   schedule:
-    - cron: '0 8 * * 2'  # Runs on Tuesday at 08:00 AM BST
+    - cron: '30 11 * * 5'  # Runs on Tuesday at 08:00 AM BST
   workflow_dispatch:     # Allows manual trigger from GitHub UI
 
 jobs:
